@@ -1,5 +1,5 @@
 export default function TodosCreate({ html, state }) {
-  const { instanceID='' } = state
+  const { instanceID = '' } = state
 
   return html`
 <style>
@@ -30,7 +30,7 @@ export default function TodosCreate({ html, state }) {
         "
         name="text"
         type="text"
-        placeholder="Add a title ⏎"
+        placeholder="Add a todo ⏎"
         autofocus
         required
       >
