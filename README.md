@@ -8,3 +8,4 @@ The example todo app reuses custom element templates for the server and the brow
 It is progressively enhanced from working forms that refresh the page when submitted to Custom Elements that react to user input and update the application state via API calls to persist data to the database.
 
 The API offloads the backend calls to a Worker that will make data fetches off of the UI thread allowing the UI layer to remain responsive as the data is fetched in the background.
+![enhance-state-mgmt-architecture](https://github.com/enhance-dev/enhance-state-management/assets/76308/30b0152b-dfe3-4b94-826e-4b36165d3581)
